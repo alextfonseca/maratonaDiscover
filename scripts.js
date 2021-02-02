@@ -23,7 +23,7 @@ const Storage = {
 }
 
 
-// AQUI È FEITO O CALCULO 
+// CALCULO 
 const Transaction = {
     all: Storage.get(),
     add(transaction) {
@@ -64,7 +64,7 @@ const Transaction = {
     }
 }
 
-// AQUI È FEITO A FORMATACAO DO HTML
+// FORMATACAO DO HTML
 const DOM = {
 
     // pega a tabela geral
@@ -118,7 +118,7 @@ const DOM = {
     }
 }
 
-// AQUI È FEITO A FORMATACAO DA MOEDA
+// FORMATACAO DA MOEDA
 const Utils = {
     formatAmount(value) {
         value = Number(value) * 100
