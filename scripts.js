@@ -79,7 +79,6 @@ const DOM = {
         // onde vai adicionar
         DOM.transactionContainer.appendChild(tr)
     },
-
     // estrutura html que deseja adicionar
     innerHTMLTransaction(transaction, index) {
         // verifica se o valor é positivo e adiciona a classe income ou expense 
@@ -87,7 +86,7 @@ const DOM = {
 
         const amount = Utils.formatCurrency(transaction.amount)
 
-        // utilizando as ´´ voce pode colocar variaveis nas strings
+        // utilizando as ´´ voce pode colocar variaveis nas strings do html
         const html = `
             <td class="description">${transaction.description}</td>
             <td class="${CSSclass}">${amount}</td>
